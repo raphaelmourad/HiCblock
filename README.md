@@ -1,6 +1,6 @@
 # HiCblock: TAD-free analysis of architectural proteins and insulators
 
-![alt text](https://github.com/morphos30/PhyloCTCFLooping/blob/master/approach.png)
+![alt text](https://github.com/morphos30/HiCblock/blob/master/hicblock.png)
 
 **Overview**
 
