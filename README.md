@@ -4,7 +4,8 @@
 
 **Overview**
 
-Because of Hi-C count overdispersion, we used negative binomial regression as the most appropriate specification of the generalized linear model. However, Poisson regression with lasso shrinkage can also be used. We believe that the choice between both depends mainly on the number of variables to analyze. On the one hand, if there are a few candidate variables (less than 10), it is interesting to estimate beta parameters together with corresponding p-values to assess significance using negative binomial regression. On the other hand, if there are a large number of variables (10 or more), it is more convenient to use Poisson lasso regression in order to select the key variables and to account for correlations among the variables (frequent in ChIP-seq and motif occurrence data).
+Here, we propose a TAD-free model to directly estimate the blocking effects of architectural proteins, insulators and DNA motifs
+on long-range contacts, making the model intuitive and biologically meaningful. In addition, the model allows analyzing the whole Hi-C information content (2D information) instead of only focusing on TAD borders (1D information).
 
 **References**
 Raphael Mourad and Olivier Cuvier. TAD-free analysis of architectural proteins and insulators.  Nucleic Acids Research, Volume 46, Issue 5, 16 March 2018, Pages e27.
